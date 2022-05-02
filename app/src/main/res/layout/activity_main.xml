@@ -61,7 +61,8 @@
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/DecreaseButton"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:onClick="ResetButtonClick"/>
 
     <Button
         android:id="@+id/rollButton"
@@ -71,7 +72,8 @@
         android:text="@string/roll"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/DecreaseButton" />
+        app:layout_constraintTop_toBottomOf="@+id/DecreaseButton"
+        android:onClick="RollButtonClick"/>
 
     <TextView
         android:id="@+id/textView2"
