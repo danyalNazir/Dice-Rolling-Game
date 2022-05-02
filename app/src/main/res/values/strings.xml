@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dice Rolling Game</string>
+    <string name="dice">TODO</string>
+    <string name="_0">0</string>
+    <string name="increase_value">Increase</string>
+    <string name="decrease_value">Decrease</string>
+    <string name="reset">Reset</string>
+    <string name="roll">ROLL</string>
+    <string name="lucky_number">Lucky Number:</string>
+</resources>
